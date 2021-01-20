@@ -1,0 +1,136 @@
+html {
+  text-align: -webkit-center;
+  margin: auto;
+}
+
+body {
+  color: #fdfdfd;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+.container {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+section {
+  padding: 32px 0 64px 16px;
+}
+
+p {
+  max-width: 660px;
+}
+
+#name {
+  float: left;
+  width: 39%;
+  color: #fff;
+}
+
+.head {
+  text-align: center;
+  background-color: #15959f;
+}
+#img {
+  float: left;
+  width: 33%;
+}
+.head p {
+  margin: 16px auto;
+}
+#social-media {
+  float: left;
+  margin-left: 3%;
+}
+.social-media {
+  margin-top: 3%;
+  float: right;
+  color: #000 !important;
+}
+.social-media a {
+  text-decoration: none;
+  margin: 0 10px;
+  color: #000;
+}
+#footer-p {
+  margin: 0;
+  color: #fff;
+}
+#footer-p a {
+  margin: 0;
+  color: #fff;
+}
+.social-media ul {
+  list-style-type: none;
+  display: inline-flex;
+}
+
+.about {
+  background-color: #133046;
+}
+
+.education {
+  background-color: #c7402d;
+}
+a {
+  color: #000;
+}
+.work {
+  background-color: #ec9770;
+}
+
+.skills {
+  background-color: #f1e4b3;
+  color: #020202;
+}
+footer {
+  background-color: #15959f;
+  width: 61%;
+}
+
+.responsive {
+  width: 60%;
+  background-color: #fff;
+  border: 1px solid;
+  border-color: #15959f;
+  color: #000;
+}
+
+.head {
+  background-color: #15959f;
+  height: 5vw !important;
+}
+
+.skills-btn {
+  background-color: #15959f; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: default;
+  outline: none;
+}
+#buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+@media (max-width: 400px) {
+  .responsive {
+    width: 91% !important;
+  }
+  footer {
+    background-color: #15959f;
+    width: 100%;
+  }
+  .head {
+    background-color: #15959f;
+    height: 50vw !important;
+  }
+}
